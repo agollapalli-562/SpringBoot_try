@@ -9,5 +9,6 @@ public class HealthCheckController {
     @GetMapping("/health")
     public String healthCheck() {
         return "Application is up and running!";
+        // returning health check status
     }
 }
