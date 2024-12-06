@@ -10,5 +10,6 @@ public class HealthCheckController {
     public String healthCheck() {
         return "Application is up and running!";
         // returning health check status
+        // changes again
     }
 }
